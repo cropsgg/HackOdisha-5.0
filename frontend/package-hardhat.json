@@ -1,0 +1,43 @@
+{
+  "name": "isro-avalanche-contracts",
+  "version": "1.0.0",
+  "description": "ISRO Avalanche Subnet Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:avalanche": "hardhat run scripts/deploy.ts --network avalanche",
+    "deploy:fuji": "hardhat run scripts/deploy.ts --network fuji",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
+    "verify:avalanche": "hardhat verify --network avalanche",
+    "verify:fuji": "hardhat verify --network fuji",
+    "clean": "hardhat clean",
+    "node": "hardhat node",
+    "console": "hardhat console"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "hardhat": "^2.19.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": [
+    "avalanche",
+    "subnet",
+    "isro",
+    "smart-contracts",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "ISRO Development Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

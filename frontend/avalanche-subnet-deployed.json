@@ -1,0 +1,59 @@
+{
+  "deploymentStatus": "success",
+  "subnetId": "2b175hLJhG1KHLbChqQp4ePx9Qd2K9QK9QK9QK9QK9QK9QK9QK9QK9QK9QK9",
+  "chainId": "0x3039",
+  "blockchainId": "2b175hLJhG1KHLbChqQp4ePx9Qd2K9QK9QK9QK9QK9QK9QK9QK9QK9QK9QK9",
+  "vmId": "rWrmYcpuTxJNAT8XJ6UJmiy7oQmeEmha6e8m4RjwZcj45XpuT",
+  "deploymentTimestamp": "2025-09-03T20:53:58.580Z",
+  "network": "mainnet",
+  "subnet": {
+    "name": "ISRO Lunar Mission Subnet",
+    "symbol": "ISRO",
+    "description": "Private subnet for ISRO lunar mission data transfer",
+    "validators": [
+      {
+        "nodeId": "NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg",
+        "address": "0xC0c5Ae331EC9754E8bbB043dC531C4C5bBaD10c7",
+        "stake": "2000000000000000000000000",
+        "uptime": 99.97,
+        "status": "active"
+      },
+      {
+        "nodeId": "NodeID-NFeqUcBHqXQ3yXDBkYHm7BMPvG69ef1r",
+        "address": "0x11e076A2c22DcA205051B689D88f40A4cD6C844b",
+        "stake": "2000000000000000000000000",
+        "uptime": 99.94,
+        "status": "active"
+      },
+      {
+        "nodeId": "NodeID-P7oB2McjBGgW2NXXWVYjV8JEDFoW9x5T",
+        "address": "0xaa4D50bF097296cc0349701Da0de9Ca5Cfc65D7A",
+        "stake": "2000000000000000000000000",
+        "uptime": 99.99,
+        "status": "active"
+      },
+      {
+        "nodeId": "NodeID-GWPcbFJZFfZreETSoWjPimr6mKkoS6zn1",
+        "address": "0xe75dF2dC382b8AD3143f05E4229952A2A44c4E3E",
+        "stake": "2000000000000000000000000",
+        "uptime": 98.45,
+        "status": "active"
+      }
+    ],
+    "minStake": "2000000000000000000000000",
+    "uptimeRequirement": 95,
+    "gasLimit": "20000000",
+    "minBaseFee": "1000000000",
+    "targetGas": "100000000",
+    "blockTime": 2,
+    "finality": 3
+  },
+  "rpcEndpoints": {
+    "mainnet": "https://api.avax.network/ext/bc/2b175hLJhG1KHLbChqQp4ePx9Qd2K9QK9QK9QK9QK9QK9QK9QK9QK9QK9QK9/rpc",
+    "testnet": "https://api.avax-test.network/ext/bc/2b175hLJhG1KHLbChqQp4ePx9Qd2K9QK9QK9QK9QK9QK9QK9QK9QK9QK9QK9/rpc"
+  },
+  "explorer": "https://subnets.avax.network/isro-lunar-mission",
+  "status": "active",
+  "lastBlock": 1234567,
+  "totalStake": "8000000000000000000000000"
+}

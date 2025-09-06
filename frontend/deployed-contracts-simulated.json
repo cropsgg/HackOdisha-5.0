@@ -1,0 +1,75 @@
+{
+  "deploymentStatus": "success",
+  "deploymentTime": "2025-09-03T21:00:00.000Z",
+  "network": "Avalanche Mainnet",
+  "chainId": 43114,
+  "deployer": "0xC0c5Ae331EC9754E8bbB043dC531C4C5bBaD10c7",
+  "contracts": {
+    "isroToken": {
+      "name": "ISRO Lunar Mission Token",
+      "symbol": "ISRO",
+      "address": "0x1234567890123456789012345678901234567890",
+      "initialSupply": "1000000000000000000000000000",
+      "decimals": 18,
+      "deploymentTx": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+      "blockNumber": 12345678
+    },
+    "isroDataTransfer": {
+      "name": "ISRO Data Transfer System",
+      "address": "0x0987654321098765432109876543210987654321",
+      "minStake": "2000000000000000000000000",
+      "transferTimeout": 3600,
+      "maxDataSize": "100000000000",
+      "deploymentTx": "0xfedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321",
+      "blockNumber": 12345679
+    }
+  },
+  "validators": [
+    {
+      "address": "0xC0c5Ae331EC9754E8bbB043dC531C4C5bBaD10c7",
+      "name": "ISRO Bangalore",
+      "role": "Primary Validator",
+      "stake": "2000000000000000000000000",
+      "status": "active",
+      "uptime": 99.97
+    },
+    {
+      "address": "0x11e076A2c22DcA205051B689D88f40A4cD6C844b",
+      "name": "ISRO Chennai",
+      "role": "Secondary Validator",
+      "stake": "2000000000000000000000000",
+      "status": "active",
+      "uptime": 99.94
+    },
+    {
+      "address": "0xaa4D50bF097296cc0349701Da0de9Ca5Cfc65D7A",
+      "name": "ISRO Delhi",
+      "role": "Tertiary Validator",
+      "stake": "2000000000000000000000000",
+      "status": "active",
+      "uptime": 99.99
+    },
+    {
+      "address": "0xe75dF2dC382b8AD3143f05E4229952A2A44c4E3E",
+      "name": "ISRO Sriharikota",
+      "role": "Quaternary Validator",
+      "stake": "2000000000000000000000000",
+      "status": "active",
+      "uptime": 98.45
+    }
+  ],
+  "subnet": {
+    "id": "2b175hLJhG1KHLbChqQp4ePx9Qd2K9QK9QK9QK9QK9QK9QK9QK9QK9QK9QK9",
+    "chainId": "0x3039",
+    "status": "active",
+    "consensus": "Avalanche",
+    "blockTime": 2,
+    "finality": 3,
+    "totalStake": "8000000000000000000000000"
+  },
+  "explorer": {
+    "token": "https://snowtrace.io/address/0x1234567890123456789012345678901234567890",
+    "dataTransfer": "https://snowtrace.io/address/0x0987654321098765432109876543210987654321",
+    "subnet": "https://subnets.avax.network/isro-lunar-mission"
+  }
+}
